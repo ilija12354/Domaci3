@@ -5,40 +5,40 @@ import Putovanje from './IndividualnoPutovanje';
 function Putovanja() {
   return (
     <div className='putovanje'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Pogledajte fenomenalne lokacije u Srbiji!</h1>
       <div className='putovanje__container'>
         <div className='putovanje__wrapper'>
           <ul className='putovanje__items'>
             <Putovanje
               src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              text='Dodjite u Pancevo na svez vazduh'
+              label='Pancevo!'
               path='/services'
             />
             <Putovanje
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              text='Gradski prevoz je odlican!'
+              label='Beograd!'
               path='/services'
             />
           </ul>
           <ul className='putovanje__items'>
             <Putovanje
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              text='Apsolutno nebitan grad!'
+              label='Kraljevo'
               path='/services'
             />
             <Putovanje
               src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              text='Love fest i nista vise'
+              label='Vrnjacka banja'
               path='/products'
             />
             <Putovanje
               src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              text='Moje selo lepse od Pariza'
+              label='Grdica'
               path='/sign-up'
             />
           </ul>
